@@ -1,0 +1,8 @@
+<html>
+<head>
+<body>
+<p>Image from the my files</p>
+<img src=""C:\Users\ahaly\OneDrive\Pictures\Camera Roll\WIN_20230929_09_31_34_Pro.jpg""
+</body>
+</head>
+</html>

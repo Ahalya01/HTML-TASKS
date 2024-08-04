@@ -1,0 +1,126 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Application Form</title>
+</head>
+<body>
+    <pre>
+
+<form action="./submit.txt" method="post">
+    <h2>Software Developer Job Application Form</h2>
+    <!-- Personal Information -->
+    <fieldset>
+        <legend>Personal Information</legend>
+
+        <label for="full-name">Full Name:</label> <input type="text" id="full-name" name="full_name" required>
+
+        <label for="email">Email:</label> <input type="email" id="email" name="email" required>
+
+        <label for="phone">Phone Number:</label> <input type="tel" id="phone" name="phone" required>
+
+    </fieldset>
+    <!-- Job Details -->
+    <fieldset>
+        <legend>Job Details</legend>
+
+        <label for="position">Position:</label> <input type="text" id="position" name="position" value="Software Developer" readonly>
+
+        <label for="experience">Years of Experience:</label> <input type="number" id="experience" name="experience" min="0" max="50" required>
+
+        <label>Technical Skills: </label> <input list="Skills">
+        <datalist id="Skills">
+            <option value="JavaScript">JavaScript</option>
+            <option value="Python">Python</option>
+            <option value="Java">Java</option>
+            <option value="C++">C++</option>
+            <option value="Ruby">Ruby</option>
+        </datalist>
+        <label for="location">Preferred Location:</label> <select id="location" name="location" required>
+            <option value="Remote">Remote</option>
+            <option value="Re Locate">Re Locate</option>
+            <option value="New York">New York</option>
+            <option value="UK">UK</option>
+            <option value="Chicago">Chicago</option>
+            <option value="Los Angeles">Los Angeles</option>
+        </select>
+
+        <label for="resume">Upload Resume:</label> <input type="file" id="resume" name="resume" accept=".pdf,.doc,.docx" required>
+    </fieldset>
+
+    <button type="submit">Submit Application</button>
+
+</form>
+</pre>
+</body>
+</html>
+
+               <B>TASK -2</B>
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>JNTUH Website</title>
+    <link rel="icon" href="https://jntuhcem.ac.in/images_new/jntuhlogo1.png" type="image">
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>JNTUH Website</title>
+    </head>
+    <body>
+        <header >
+    <nav style="align-items: center; background-color: #004080;">
+            <img src="https://jntuhcem.ac.in/images_new/jntuhlogo1.png" alt="JNTUH" width="90" height="100" align="middle">
+            <a href="https://jntuhcem.ac.in/" style="color: #fff;">Home |</a>
+            <a href="https://jntuhcem.ac.in/about_university" style="color: #fff;">About |</a>
+            <a href="https://jntuhcem.ac.in/courses_offered" style="color: #fff;">Services |</a>
+            <a href="https://jntuhcem.ac.in/contact" style="color: #fff;">Contact |</a>
+    </nav>
+        </header>
+        <section style=" background-color: #e3f2fd;">
+            <h1>Welcome to My Website</h1>
+            <h3>Welcome to JNTUH University College of Engineering Manthani</h3>
+            <p>The University College of Engineering, Manthani as a part of Jawaharlal Nehru Technological University Hyderabad is committed to the ongoing creation of a vital engineering community animated by a love of learning along with academic excellence and the pursuit of truth. The College strives to foster an environment based on open enquiry and service to the larger community. This mission is undertaken under the aegis of the university with an aim to impart quality, value-based education in various fields of technology</p>
+        </section>
+    
+        <article style="background-color:#ffe0b2;">
+            <h2>My 5 Favorite Things About JNTUHCEM</h2>
+            <p>JNTUHCEM is renowned for its highly qualified and experienced faculty who are dedicated to student success. The college offers state-of-the-art infrastructure, including advanced laboratories, a comprehensive library, and well-equipped classrooms, providing an excellent learning environment. Students are encouraged to engage in innovative research, with access to cutting-edge technology and strong support for their projects. The vibrant campus life includes various cultural, technical, and sports events, allowing students to develop leadership and social skills. Additionally, the strong alumni network provides mentorship and career support, helping students connect with industry professionals and successfully transition into their careers.</p>
+        <ol>
+            <li>Experienced Faculty</li>
+            <li>Modern Infrastructure</li>
+            <li>Research Opportunities</li>
+            <li>Student Activities</li>
+            <li>Alumni Network</li>
+        </ol>
+        </article>
+    
+        <aside style=" background-color: #ffcc80;">
+            <h3>Quick Links</h3>
+        <a href="https://jntuhcem.ac.in/admissions">Admissions</a><br>
+        <a href="https://jntuhcem.ac.in/academic_calenders">Academic Calendar</a><br>
+        <a href="https://jntuhcem.ac.in/about_library">Library</a>
+        <p><span>JNTUHCEM offers a streamlined admissions process, ensuring that prospective students can easily apply and join the college's vibrant academic community. The academic calendar is well-structured, outlining important dates for exams, holidays, and other key events, helping students stay organized throughout the year. The college's library is a valuable resource, providing access to a vast collection of books, journals, and online databases to support research and learning. Students are encouraged to utilize these resources to enhance their academic experience. With its strong academic foundation, JNTUHCEM ensures that students are well-prepared for both their studies and future careers.</span></p>
+        </aside>
+    
+        <footer style="background-color: #004d40; text-align: center;">
+            <p style="color: #fff;">Connect with us:</p>
+            <a href="https://www.instagram.com/jntuhofficial?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" style="color:  #80cbc4;;">Instagram |</a>
+            <a href="https://github.com/JNTUH" style="color:  #80cbc4;;">GitHub |</a>
+            <a href="https://in.linkedin.com/school/jntuh-college-of-engineering-hyderabad/" style="color:  #80cbc4;;">LinkedIn |</a>
+            <p style="color: #fff;">&copy;Copyrights Reserved. 2017. JNTUH University College of Engineering Manthani, Peddapalle (Telangana) India
+            </p>
+        </footer>
+    </body>
+    </html>
+
+</head>
+<body>
+    
+</body>
+</html>
